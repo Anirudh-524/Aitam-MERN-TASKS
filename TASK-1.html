@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!--Problem Statement: 
+    User Registration Form Design and implement a User Registration Form using HTML that collects personal details,
+ preferences, and feedback from the user. The form must use various input types and elements
+  to ensure proper data collection and provide a seamless experience. The task should demonstrate
+   your understanding of HTML form elements, their attributes, and their functionality.-->
+
+   <form>
+    <fieldset>
+        <legend>REGISTRATION FORM</legend>
+        <label for="name">FIRST NAME : </label>
+        <input type="text" id="name"
+        placeholder="Enter your first name"><br><br>
+        <label for="last name">LAST NAME : </label>
+        <input type="text" id="last name"
+        placeholder="Enter your last name"><br><br>
+        <label for="number">PHONE NUMBER : </label>
+        <input type="number" id="number"
+        placeholder="Enter your phone numbe"><br><br>
+        <label for="gender">GENDER  </label>
+        <input type="radio" id="gender" name="male" value="male">Male
+        <input type="radio" id="gender" name="female" value="female">Femal
+        <input type="radio" id="gender" name="others" value="others">Others <br><br>
+        <label for="email">EMAIL : </label>
+        <input type="email" id="email"
+        placeholder="Enter your email here"><br><br>
+        <label for="age">AGE : </label>
+        <input type="number" name="age" id="age"
+        placeholder="Enter your age"><br><br>
+        <label for="dob">DATE OF BIRTH : </label>
+        <input type="date"><br><br>
+        <label for="add">ADDRESS : </label>
+        <textarea name="address" id="add"
+        placeholder="Your present address"></textarea><br><br>
+        <label for="password" id="pass">PASSWORD : </label>
+        <input type="password" name="password" id="pass"
+        placeholder="Enter your password"><br><br>
+        <label for="password" id="pass">RE-ENTER PASSWORD : </label>
+        <input type="password" name="password" id="pass"
+        placeholder="Enter password again"><br><br>
+        <input type="checkbox" name="yes" id="agree"> Terms and conditions.<br><br>
+
+        <button>SUBMIT</button>  <button>RESET</button>
+        
+
+    </fieldset>
+    <fieldset>
+        <legend>FEEDBACK</legend>
+        <textarea name="feedback" id="feddback"
+        placeholder=" enter your feedback here"></textarea>
+        <button>SUBMIT</button>
+    </fieldset>
+   </form>
+</body>
+</html>
