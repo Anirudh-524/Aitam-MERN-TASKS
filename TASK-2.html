@@ -41,21 +41,21 @@
                         placeholder="Enter your lasst name"></td>
                 </tr>
                 <tr>
-                    <td><label for="phone">Phone Number</label></td>
+                    <td><label for="phone">Phone Number : </label></td>
                     <td><input type="text" name="phone" id="phone" 
                         placeholder="Enter your phone number" required></td>
                 </tr>
                 <tr>
-                    <td><label for="phone">Alternate phone Number</label></td>
+                    <td><label for="phone">Alternate phone Number : </label></td>
                     <td><input type="text" name="phone" id="phone" 
                     placeholder="Enter alternate phone number"></td>
                 </tr>
                 <tr>
-                    <td><label for="profile">Your Photo</label></td>
+                    <td><label for="profile">Your Photo : </label></td>
                     <td><input type="file" name="profile" id="profile" required></td>
                 </tr>
                 <tr>
-                    <td><label for="gender">Gender</label></td>
+                    <td><label for="gender">Gender : </label></td>
                     <td>
                         <input type="radio" name="gender" id="male" value="male" /> Male
                         <input type="radio" name="gender" id="female" value="female" /> Female
@@ -72,7 +72,7 @@
                     <td><input type="date"></td>
                 </tr>
                 <tr>
-                    <td><label for="rollno">Roll Number</label></td>
+                    <td><label for="rollno">Roll Number : </label></td>
                     <td><input name="rollno" id="rollno" 
                         placeholder="Enter your roll number" required></td>
                 </tr>
@@ -114,6 +114,19 @@
                         </select>
                     </td>
                 </tr>
+                <tr>
+                    <td><label for="sec">Section : </label></td>
+                    <td>
+                        <select name="sec" id="sec">
+                            <optgroup>
+                                <option value="sec">---------</option>
+                                <option value="a">A</option>
+                                <option value="b">B</option>
+                                <option value="c">C</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
             </table><br><br>
             <table >
                 <thead>
@@ -134,15 +147,15 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><label for="time">Entry time</label></td>
+                    <td><label for="time">Entry time : </label></td>
                     <td><input type="time" name="time" id="time"></td>
                 </tr>
                 <tr>
-                    <td><label for="time1">Exit time</label></td>
+                    <td><label for="time1">Exit time : </label></td>
                     <td><input type="time"></td>
                 </tr>
                 <tr>
-                    <td><label for="pass">Gate Pass</label></td>
+                    <td><label for="pass">Gate Pass : </label></td>
                     <td><input type="file" name="pass" id="pass"></td>
                 </tr>
                 <tr>
@@ -161,11 +174,11 @@
                     </tr>
                 </thead>
                 <tr>
-                    <td><label for="time2">Available After</label></td>
+                    <td><label for="time2">Available After : </label></td>
                     <td><input type="time" name="time2" id="time2"></td>
                 </tr>
                 <tr>
-                    <td><label for="op">Available in Late nights</label></td>
+                    <td><label for="op">Available in Late nights : </label></td>
                     <td><input type="radio"name="op" id="yes" value="yes">YES
                     <input type="radio" name="op" id="no" value="no">NO</td>
                 </tr>
