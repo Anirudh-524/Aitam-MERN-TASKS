@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.product {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.product h3 {
+  margin-top: 0;
+}
+@media(max-width :500px)
+{
+    .product-list
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1020px) {
+  .product {
+    flex: 1 1;
+  }
+  #product1
+  {
+    flex: 1 1 75%;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <div class="product-list">
+        <div class="product">
+          <h3>Product A</h3>
+          <p>Price: $50</p>
+          <p>Availability: In Stock</p>
+          <p>Rating: 4.5/5</p>
+        </div>
+        <div class="product">
+          <h3>Product B</h3>
+          <p>Price: $70</p>
+          <p>Availability: Out of Stock</p>
+          <p>Rating: 4.0/5</p>
+        </div>
+        <div class="product" id="product1">
+          <h3>Product C</h3>
+          <p>Price: $60</p>
+          <p>Availability: In Stock</p>
+          <p>Rating: 4.7/5</p>
+        </div>
+      </div>
+    
+</body>
+</html>
